@@ -3,8 +3,7 @@ package com.company;
 public class sort {
     public static void main(String[] args) {
         int[] array = {2, 3, 1, 7, 11};
-       // System.out.print();
-        Bubblesort(array);  // Метод сортування бульбашкою
+               Bubblesort(array);  // Метод сортування бульбашкою
 
     }
 
