@@ -7,14 +7,14 @@ public class sum {
     }
 
     public static double Suma(double[] array2) {
-        double Sum = 0.0;
+        double sum = 0.0;
         for (int i = 0; i < array2.length; i++) {
             if (array2[i] > 0) {
-                Sum += array2[i];
+                sum += array2[i];
             }
         }
-        System.out.println("сума додатніх чисел масиву: " + Sum);
-        return Sum;
+        System.out.println("сума додатніх чисел масиву: " + sum);
+        return sum;
 
     }
 }
